@@ -67,7 +67,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
-                  <img src={fotox} alt="Foto de Paula Ferreyra" style={{ width: '220px', padding: "10px" }} />
+                  <img src={fotox} alt="Foto de Paula Ferreyra" style={{ width: '200px', padding: "10px", marginTop: "0", marginBottom: "0" }} />
                 </div>
               )}
             </TrackVisibility>
