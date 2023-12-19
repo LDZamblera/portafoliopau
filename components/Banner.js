@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowRightCircle, Back } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import fotox from "../assets/img/paulafoto.jpg"
@@ -58,7 +58,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p></p>
-                  <button onClick={() => console.log('connect')}>Conectemonos<ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}><ArrowRightCircle size={25} /></button>
                 </div>
               )}
             </TrackVisibility>
@@ -67,7 +67,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
-                  <img src={fotox} alt="Foto de Paula Ferreyra" style={{ width: '220px', padding: "5px" }} />
+                  <img src={fotox} alt="Foto de Paula Ferreyra" style={{ width: '220px', padding: "10px" }} />
                 </div>
               )}
             </TrackVisibility>
