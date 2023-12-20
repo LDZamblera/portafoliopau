@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/GEA-Cobertura-de-Salud.png';
+import logo from '../assets/img/paulafoto.jpg';
 import navIcon1 from '../assets/img/logo-whatsapp.svg';
 import navIcon2 from '../assets/img/mail-outline.svg';
 

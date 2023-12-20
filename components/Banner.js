@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle, Back } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import fotox from "../assets/img/paulafoto.jpg"
+import fotox from "../assets/img/GEA-Cobertura-de-Salud.png"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -67,7 +67,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
-                  <img src={fotox} alt="Foto de Paula Ferreyra" style={{ width: '200px', padding: "10px", marginTop: "0", marginBottom: "0" }} />
+                  <img src={fotox} alt="Paula Ferreyra" style={{ width: '200px', padding: "10px", marginTop: "0", marginBottom: "0" }} />
                 </div>
               )}
             </TrackVisibility>
